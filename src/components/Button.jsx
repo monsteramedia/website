@@ -8,7 +8,7 @@ export const Button = ({ href, className, variant, ...props }) => {
   switch (variant) {
     case 'secondary':
       buttonColorStyle =
-        'border-salmon text-salmon hover:bg-salmon hover:text-white';
+        'border-green text-green hover:bg-green hover:text-white';
       break;
     case 'secondaryWhite':
       buttonColorStyle =
