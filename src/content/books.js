@@ -1,6 +1,7 @@
 import alemDaDemocracia from '@/images/books/para-alem-da-democracia.jpg';
 import gracasADeus from '@/images/books/gracas-a-deus-pelo-bitcoin.jpg';
 import precoAmanha from '@/images/books/o-preco-do-amanha.jpg';
+import repressaoOculta from '@/images/books/repressao-oculta.jpg';
 import teseAscencao from '@/images/books/a-tese-da-ascencao-do-bitcoin.jpg';
 import tudoDividido21Milhoes from '@/images/books/tudo-dividido-por-21-milhoes.jpg';
 import vinteUmaLicoes from '@/images/books/21-licoes.jpg';
@@ -8,6 +9,23 @@ import vinteUmaLicoes from '@/images/books/21-licoes.jpg';
 const books = [
   {
     id: 1,
+    title: 'Repressão Oculta',
+    description: [
+      '**Repressão Oculta — Como o FMI e o Banco Mundial vendem exploração como desenvolvimento**',
+      'Criados originalmente para promover a estabilidade e o crescimento, o FMI e o Banco Mundial passaram os últimos 75 anos a aprisionar países mais pobres em ciclos de dívida e dependência. As suas chamadas políticas de “desenvolvimento” dão prioridade aos interesses do Ocidente, obrigando os países a servir mercados externos em vez de construírem prosperidade local — um legado de exploração neocolonial com consequências devastadoras.',
+      '«Alex Gladstein escreveu uma análise poderosa de uma questão importantíssima que é geralmente negligenciada na academia e nos média: o que dá ao Banco Mundial e ao FMI um poder tão exorbitante sobre a política e as finanças dos países em desenvolvimento? Ao examinar as bases monetárias da questão, Alex oferece uma avaliação astuta dos incentivos perversos enfrentados pelas instituições financeiras internacionais e uma explicação convincente das razões por que os verdadeiros beneficiários dos seus programas são as instituições financeiras e governos ocidentais, enquanto as vítimas são as pessoas mais pobres do mundo.»',
+      '— Saifedean Ammous, Autor de O Padrão Bitcoin e O Padrão Fiat',
+    ],
+    authorDescription: [
+      'Alex Gladstein é diretor de estratégia da Human Rights Foundation e vice-presidente de estratégia do Oslo Freedom Forum desde a sua criação em 2009. No seu trabalho, tem ligado centenas de dissidentes e organizações da sociedade civil a líderes empresariais, tecnólogos, jornalistas, filantropos, decisores políticos e artistas, com o objetivo de promover sociedades livres e abertas.',
+      'Os seus textos e perspetivas sobre direitos humanos e tecnologia têm sido publicados em diversos meios de comunicação internacionais, incluindo The Atlantic, BBC, CNN, The Guardian, Foreign Policy, The New York Times, NPR, TIME, The Washington Post, WIRED e The Wall Street Journal. Proferiu palestras em universidades como o MIT e Stanford, fez sessões de esclarecimento no Parlamento Europeu e no Departamento de Estado dos EUA, e integra o corpo docente da Singularity University, além de ser consultor da Blockchain Capital, uma empresa líder no setor da tecnologia financeira.',
+      'Fala e escreve frequentemente sobre a importância do Bitcoin para a liberdade. É coautor de The Little Bitcoin Book (2019), autor de Check Your Financial Privilege (2022) e colabora regularmente com a Bitcoin Magazine.',
+    ],
+    cover: repressaoOculta,
+    storeUrl: 'https://shop.freemadeira.org/products/repressao-oculta',
+  },
+  {
+    id: 2,
     title: 'A Tese da Ascensão do Bitcoin',
     description: [
       '**A Tese da Ascensão do Bitcoin** é uma leitura informativa e cativante, tanto para o recém-chegado como para o entusiasta de longa data do Bitcoin. Boyapati faz um caso convincente para o Bitcoin através de uma rápida visita ao cenário histórico do dinheiro, às propriedades de diferentes tipos de dinheiro e à razão pela qual o Bitcoin é a melhor forma de dinheiro e reserva de valor do mundo, potencialmente destinada a deslocar todas as outras.',
@@ -23,7 +41,7 @@ const books = [
       'https://www.amazon.es/dp/9893554020?ref=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&ref_=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&social_share=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&bestFormat=true',
   },
   {
-    id: 2,
+    id: 3,
     title: 'O Preço do Amanhã',
     description: [
       '**Vivemos numa época extraordinária.** Os avanços tecnológicos estão a acontecer mais depressa do que a nossa capacidade para os compreender e, num mundo que está a avançar a um ritmo mais rápido do que podemos imaginar, não nos podemos dar ao luxo de ficar parados.',
@@ -39,7 +57,7 @@ const books = [
       'https://www.amazon.es/dp/9895338805?ref=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&ref_=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&social_share=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&bestFormat=true',
   },
   {
-    id: 3,
+    id: 4,
     title: '21 Lições',
     description: [
       '**O que é Bitcoin?** Esta pergunta inócua é surpreendentemente difícil de responder. Bitcoin é uma rede informática, uma nova forma de dinheiro, um sistema de pagamento resistente à censura, uma revolução financeira, uma forma pacífica de protesto, e muito mais.',
@@ -55,7 +73,7 @@ const books = [
       'https://www.amazon.es/dp/B0DTPG36QL?ref=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&ref_=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&social_share=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&bestFormat=true',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Tudo Dividido por 21 Milhões',
     description: [
       'Estamos todos acorrentados à seta implacável do tempo. Nascemos, vivemos e envelhecemos. Pelo menos é isso que esperamos que aconteça. Depois morremos.',
@@ -75,7 +93,7 @@ const books = [
       'https://www.amazon.es/dp/9893554063?ref=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&ref_=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&social_share=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&bestFormat=tru',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Para Além da Democracia',
     description: [
       '"Acabei de o ler. Excelente. Ótimo trabalho. Parabéns." Hans-Hermann Hoppe, autor de "Democracia: O Deus Que Falhou"',
@@ -96,7 +114,7 @@ const books = [
       'https://www.amazon.es/dp/9895338899?ref=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&ref_=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&social_share=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&bestFormat=true',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Graças a Deus pelo Bitcoin',
     description: [
       'O dinheiro faz parte do nosso dia-a-dia. Ganhamo-lo, gastamo-lo e poupamo-lo. Veneramo-lo e confiamos nele para suprir as nossas necessidades. Embora muito já tenha sido escrito sobre o poder, o perigo e a gestão do dinheiro, pouco foi ainda escrito sobre o que ele é, bem como da sua moralidade. Essa lacuna de informação tem sido aproveitada para enriquecer alguns privilegiados, escravizar milhões e introduzir desordem e divisão em todo o mundo. Como é que isto aconteceu e o que podemos fazer para o remediar?',

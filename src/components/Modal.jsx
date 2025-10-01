@@ -34,13 +34,15 @@ export function Modal({ book, show, setShow }) {
                 >
                   Loja FREE x Monstera
                 </Button>
-                <Button
-                  href={book.amazonUrl}
-                  className='w-full text-center'
-                  variant='secondary'
-                >
-                  Amazon
-                </Button>
+                {book.amazonUrl && (
+                  <Button
+                    href={book.amazonUrl}
+                    className='w-full text-center'
+                    variant='secondary'
+                  >
+                    Amazon
+                  </Button>
+                )}
               </div>
               <div className='flex flex-col grow space-y-2 h-full overflow-y-auto scrollbar-hide'>
                 <DialogTitle
@@ -77,13 +79,15 @@ export function Modal({ book, show, setShow }) {
                   <Button href={book.storeUrl} className='w-full'>
                     Loja FREE x Monstera
                   </Button>
-                  <Button
-                    href={book.amazonUrl}
-                    className='w-full'
-                    variant='secondary'
-                  >
-                    Amazon
-                  </Button>
+                  {book.amazonUrl && (
+                    <Button
+                      href={book.amazonUrl}
+                      className='w-full'
+                      variant='secondary'
+                    >
+                      Amazon
+                    </Button>
+                  )}
                 </div>
               </div>
             </div>
