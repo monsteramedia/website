@@ -26,6 +26,22 @@ const books = [
   },
   {
     id: 2,
+    title: 'O Preço do Amanhã',
+    description: [
+      '**Vivemos numa época extraordinária.** Os avanços tecnológicos estão a acontecer mais depressa do que a nossa capacidade para os compreender e, num mundo que está a avançar a um ritmo mais rápido do que podemos imaginar, não nos podemos dar ao luxo de ficar parados.',
+      'Precisamos de construir uma nova estrutura para as nossas economias locais e globais, e temos de o fazer depressa. Senão, a mesma tecnologia que tem a capacidade de trazer abundância, para nós e para o nosso mundo, irá simplesmente destruí-lo.',
+      'Neste livro extraordinariamente inconformista, Jeff Booth, líder e CEO nos setores do comércio eletrónico e da tecnologia, explica em detalhe as realidades tecnológicas e económicas que moldam o nosso mundo, presente e futuro, e as escolhas que fazemos à medida que avançamos – uma situação potencialmente alarmante, mas extremamente promissora.',
+    ],
+    authorDescription: [
+      '**Jeff Booth** é um líder visionário que viveu na vanguarda da transição tecnológica durante 20 anos. Liderou a BuildDirect – uma empresa tecnológica que tinha como missão simplificar o setor da construção – ao longo de quase duas décadas, passando pelo colapso do setor das dotcom, pela crise financeira de 2008 e por diversas ondas de disrupção tecnológica. Jeff foi mencionado na Forbes, TechCrunch, Inc.com, The Globe and Mail, BNN, Fast Company, Entrepreneur, Bloomberg, TIME e The Wall Street Journal. Em 2015, foi nomeado Pessoa do Ano pela BC Technology Industry Association’s (BCTIA) e em 2016 a Goldman Sachs classificou-o entre os seus 100 empreendedores mais intrigantes.',
+    ],
+    cover: precoAmanha,
+    storeUrl: 'https://shop.freemadeira.org/products/o-preco-do-amanha',
+    amazonUrl:
+      'https://www.amazon.es/dp/9895338805?ref=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&ref_=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&social_share=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&bestFormat=true',
+  },
+  {
+    id: 3,
     title: 'A Tese da Ascensão do Bitcoin',
     description: [
       '**A Tese da Ascensão do Bitcoin é uma leitura informativa e cativante, tanto para o recém-chegado como para o entusiasta de longa data do Bitcoin**. Boyapati faz um caso convincente para o Bitcoin através de uma rápida visita ao cenário histórico do dinheiro, às propriedades de diferentes tipos de dinheiro e à razão pela qual o Bitcoin é a melhor forma de dinheiro e reserva de valor do mundo, potencialmente destinada a deslocar todas as outras.',
@@ -41,22 +57,6 @@ const books = [
       'https://shop.freemadeira.org/products/a-tese-da-ascensao-do-bitcoin',
     amazonUrl:
       'https://www.amazon.es/dp/9893554020?ref=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&ref_=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&social_share=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&bestFormat=true',
-  },
-  {
-    id: 3,
-    title: 'O Preço do Amanhã',
-    description: [
-      '**Vivemos numa época extraordinária.** Os avanços tecnológicos estão a acontecer mais depressa do que a nossa capacidade para os compreender e, num mundo que está a avançar a um ritmo mais rápido do que podemos imaginar, não nos podemos dar ao luxo de ficar parados.',
-      'Precisamos de construir uma nova estrutura para as nossas economias locais e globais, e temos de o fazer depressa. Senão, a mesma tecnologia que tem a capacidade de trazer abundância, para nós e para o nosso mundo, irá simplesmente destruí-lo.',
-      'Neste livro extraordinariamente inconformista, Jeff Booth, líder e CEO nos setores do comércio eletrónico e da tecnologia, explica em detalhe as realidades tecnológicas e económicas que moldam o nosso mundo, presente e futuro, e as escolhas que fazemos à medida que avançamos – uma situação potencialmente alarmante, mas extremamente promissora.',
-    ],
-    authorDescription: [
-      '**Jeff Booth** é um líder visionário que viveu na vanguarda da transição tecnológica durante 20 anos. Liderou a BuildDirect – uma empresa tecnológica que tinha como missão simplificar o setor da construção – ao longo de quase duas décadas, passando pelo colapso do setor das dotcom, pela crise financeira de 2008 e por diversas ondas de disrupção tecnológica. Jeff foi mencionado na Forbes, TechCrunch, Inc.com, The Globe and Mail, BNN, Fast Company, Entrepreneur, Bloomberg, TIME e The Wall Street Journal. Em 2015, foi nomeado Pessoa do Ano pela BC Technology Industry Association’s (BCTIA) e em 2016 a Goldman Sachs classificou-o entre os seus 100 empreendedores mais intrigantes.',
-    ],
-    cover: precoAmanha,
-    storeUrl: 'https://shop.freemadeira.org/products/o-preco-do-amanha',
-    amazonUrl:
-      'https://www.amazon.es/dp/9895338805?ref=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&ref_=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&social_share=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&bestFormat=true',
   },
   {
     id: 4,
