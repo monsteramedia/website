@@ -22,7 +22,7 @@ export function Modal({ book, show, setShow }) {
             className='relative transform overflow-hidden rounded-t-lg bg-white p-5 shadow-xl transition-all data-[closed]:translate-y-4 data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-200 data-[enter]:ease-out data-[leave]:ease-in sm:my-8 h-[80vh] sm:w-full sm:max-w-5xl sm:p-6 data-[closed]:sm:translate-y-0 data-[closed]:sm:scale-95'
           >
             <div className='flex flex-col sm:flex-row gap-8 justify-center items-center h-full'>
-              <div className='flex flex-col items-center justify-center h-full hidden sm:flex'>
+              <div className='flex-col items-center justify-center h-full hidden sm:flex'>
                 <Image
                   src={book.cover}
                   alt={book.title}
@@ -59,7 +59,7 @@ export function Modal({ book, show, setShow }) {
                 {book.description.map((description, index) => (
                   <div
                     key={`description-${index}`}
-                    className='text-sm font-light text-grey text-justify'
+                    className='text-sm font-light text-grey'
                   >
                     <ReactMarkdown>{description}</ReactMarkdown>
                   </div>
@@ -70,7 +70,7 @@ export function Modal({ book, show, setShow }) {
                 {book.authorDescription.map((description, index) => (
                   <div
                     key={`author-${index}`}
-                    className='text-sm font-light text-grey text-justify'
+                    className='text-sm font-light text-grey'
                   >
                     <ReactMarkdown>{description}</ReactMarkdown>
                   </div>

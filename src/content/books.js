@@ -5,10 +5,29 @@ import repressaoOculta from '@/images/books/repressao-oculta.jpg';
 import teseAscencao from '@/images/books/a-tese-da-ascencao-do-bitcoin.jpg';
 import tudoDividido21Milhoes from '@/images/books/tudo-dividido-por-21-milhoes.jpg';
 import vinteUmaLicoes from '@/images/books/21-licoes.jpg';
+import oIndividuoSoberano from '@/images/books/o-individuo-soberano.jpg';
 
 const books = [
   {
     id: 1,
+    title: 'O Indivíduo Soberano',
+    description: [
+      'Originalmente publicado em 1997, este é o livro que previu muitos dos acontecimentos actuais, incluindo o aparecimento de tecnologias como o Bitcoin. Uma leitura obrigatória para quem quer entender o futuro da relação entre os estados e o indivíduo. Finalmente disponível em português.',
+      '**Como dominar a transição para a era da informação**',
+      'O Indivíduo Soberano revela como a maior transformação da nossa era — a passagem da economia industrial para a sociedade da informação — mudará para sempre a relação entre indivíduos e governos.',
+      'James Dale Davidson e Lord William Rees-Mogg — conhecidos pelas suas previsões certeiras sobre quedas de mercados e mudanças globais — antecipam o nascimento da «quarta fase da sociedade humana»: um tempo em que a informação dá mais poder ao indivíduo do que ao Estado. ',
+      'Este não é um sonho utópico. No centro desta transformação está a ideia de que cada pessoa pode assumir o controlo da sua própria vida e destino. O Indivíduo Soberano é um convite a compreender o futuro que se aproxima — e a descobrir novas formas de liberdade num mundo em rápida mudança.',
+    ],
+    authorDescription: [
+      '**Lord William Rees-Mogg (1928-2012)** foi um dos mais influentes jornalistas britânicos, conhecido pela sua visão perspicaz e estilo editorial marcante. Nascido em Somerset, estudou em Oxford e presidiu a Oxford Union. Liderou o Times entre 1967 e 1981, tornando-o mais investigativo e provocador. Atuou no serviço público, na BBC e no Arts Council. Escreveu _The Sovereign Individual_ em 1997, antecipando a sociedade da informação e as mudanças do poder estatal.',
+      '**James Dale Davidson (1946)** é um escritor e investidor norte-americano com sólida trajetória no mundo da economia e das finanças. Ao longo da sua carreira, afirmou-se como consultor de destaque e, em 1969, fundou a National Taxpayers Union, dedicada à defesa dos cidadãos diante do peso da tributação. Formado pela Universidade de Oxford, exerce a função de coeditor de Investimentos Estratégicos da Banyan Hill Publishing. Reconhecido economista e analista financeiro, conquistou notoriedade por ter antecipado alguns dos principais acontecimentos que moldaram o cenário financeiro das últimas décadas.',
+      '',
+    ],
+    cover: oIndividuoSoberano,
+    storeUrl: 'https://shop.freemadeira.org/products/o-individuo-soberano',
+  },
+  {
+    id: 2,
     title: 'Repressão Oculta',
     description: [
       '**Repressão Oculta — Como o FMI e o Banco Mundial vendem exploração como desenvolvimento**',
@@ -25,7 +44,7 @@ const books = [
     storeUrl: 'https://shop.freemadeira.org/products/repressao-oculta',
   },
   {
-    id: 2,
+    id: 3,
     title: 'O Preço do Amanhã',
     description: [
       '**Vivemos numa época extraordinária.** Os avanços tecnológicos estão a acontecer mais depressa do que a nossa capacidade para os compreender e, num mundo que está a avançar a um ritmo mais rápido do que podemos imaginar, não nos podemos dar ao luxo de ficar parados.',
@@ -41,7 +60,7 @@ const books = [
       'https://www.amazon.es/dp/9895338805?ref=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&ref_=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&social_share=cm_sw_r_ffobk_cp_ud_dp_TNEPBRKRKKD1AMJH6HX2&bestFormat=true',
   },
   {
-    id: 3,
+    id: 4,
     title: 'A Tese da Ascensão do Bitcoin',
     description: [
       '**A Tese da Ascensão do Bitcoin é uma leitura informativa e cativante, tanto para o recém-chegado como para o entusiasta de longa data do Bitcoin**. Boyapati faz um caso convincente para o Bitcoin através de uma rápida visita ao cenário histórico do dinheiro, às propriedades de diferentes tipos de dinheiro e à razão pela qual o Bitcoin é a melhor forma de dinheiro e reserva de valor do mundo, potencialmente destinada a deslocar todas as outras.',
@@ -59,7 +78,7 @@ const books = [
       'https://www.amazon.es/dp/9893554020?ref=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&ref_=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&social_share=cm_sw_r_ffobk_cp_ud_dp_T0Z8KEJ0GWX7XT6EC07M&bestFormat=true',
   },
   {
-    id: 4,
+    id: 5,
     title: '21 Lições',
     description: [
       'O que é Bitcoin? Esta pergunta inócua é surpreendentemente difícil de responder. Bitcoin é uma rede informática, uma nova forma de dinheiro, um sistema de pagamento resistente à censura, uma revolução financeira, uma forma pacífica de protesto, e muito mais. Mas este livro não procura responder a essa pergunta. Tenta, sim, responder a outra pergunta, mais pessoal: **O que aprendi eu com Bitcoin?**',
@@ -74,7 +93,7 @@ const books = [
       'https://www.amazon.es/dp/B0DTPG36QL?ref=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&ref_=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&social_share=cm_sw_r_ffobk_cp_ud_dp_EB7Y28VKDG82PXRRZKPW&bestFormat=true',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Tudo Dividido por 21 Milhões',
     description: [
       'Estamos todos acorrentados à seta implacável do tempo. Nascemos, vivemos e envelhecemos. Pelo menos é isso que esperamos que aconteça. Depois morremos.',
@@ -94,7 +113,7 @@ const books = [
       'https://www.amazon.es/dp/9893554063?ref=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&ref_=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&social_share=cm_sw_r_ffobk_cp_ud_dp_ZA5TXKJKPW5Z1HAP728T&bestFormat=tru',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Para Além da Democracia',
     description: [
       'A democracia é amplamente considerada como o melhor sistema político que se pode imaginar. Não é certamente um exagero dizer que a democracia se tornou uma religião secular. A maior fé política do mundo. Criticar o ideal democrático é arriscar-se a ser considerado um inimigo da sociedade civilizada.',
@@ -116,7 +135,7 @@ const books = [
       'https://www.amazon.es/dp/9895338899?ref=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&ref_=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&social_share=cm_sw_r_ffobk_cp_ud_dp_XERVVPWX1AR0DEYKQ1RY_1&bestFormat=true',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Graças a Deus pelo Bitcoin',
     description: [
       'O dinheiro faz parte do nosso dia-a-dia. Ganhamo-lo, gastamo-lo e poupamo-lo. Veneramo-lo e confiamos nele para suprir as nossas necessidades. **Embora muito já tenha sido escrito sobre o poder, o perigo e a gestão do dinheiro, pouco foi ainda escrito sobre o que ele é, bem como da sua moralidade**. Essa lacuna de informação tem sido aproveitada para enriquecer alguns privilegiados, escravizar milhões e introduzir desordem e divisão em todo o mundo. Como é que isto aconteceu e o que podemos fazer para o remediar?',
