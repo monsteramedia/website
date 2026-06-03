@@ -40,7 +40,7 @@ importers:
         specifier: ^8
         version: 8.5.15
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.19
         version: 3.4.19
 
 packages:
