@@ -1,0 +1,11 @@
+{
+  "callback": "https://rizful.com/lnurl_two/monstera/get_invoice",
+  "minSendable": 1000,
+  "maxSendable": 25000000000,
+  "status": "OK",
+  "tag": "payRequest",
+  "metadata": "[[\"text/identifier\",\"zap@monsterabooks.com\"],[\"text/plain\",\"Zap Monstera\"]]",
+  "allowsNostr": true,
+  "nostrPubkey": "dbe705e47ddac6c6e2cb87e5a4cd79cc98807bc0d240171cbc9a7bbc8f46873b",
+  "commentAllowed": 224
+}
